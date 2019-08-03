@@ -21,24 +21,15 @@ RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys C1CF6E31E6
     pkg-config \
     wget \
     unzip \
-    python-pip \
-    python3-dev \
-    python3-pip \
     mlocate \
     sudo \
     gdb \
-    libeigen3-dev \
-    libboost-dev \
-    libode-dev \
-    nomacs \
-    graphviz-dev \
     python3-colcon-common-extensions \
     ros-${ROS2_DISTRO}-tf2 \
     ros-${ROS2_DISTRO}-sensor-msgs \
     ros-${ROS2_DISTRO}-rqt-plot \
     ros-${ROS_DISTRO}-ros-base \
     ros-${ROS_DISTRO}-rviz \
-    libsdl-dev libsdl-image1.2-dev \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
