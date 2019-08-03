@@ -1,0 +1,3 @@
+home/*
+!.bashrc
+!rviz.sh
