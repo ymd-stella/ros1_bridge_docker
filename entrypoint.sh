@@ -3,7 +3,7 @@
 export HOME=/home/${USER_NAME}
 cd ${HOME}
 
-if [ ! -e ${HOME}/.bashrc_profile ]; then
+if [ ! -e ${HOME}/.bash_profile ]; then
     echo "#!/bin/bash"       >  ${HOME}/.bash_profile
     echo ". ${HOME}/.bashrc" >> ${HOME}/.bash_profile
 fi
